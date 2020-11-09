@@ -1,0 +1,13 @@
+<div id="event-list">
+   <a href="#" class="list-group-item list-group-item-action active">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1" id="event-list-title">Doggy Poop Time Table</h5>
+    </div>
+  </a>
+    <ul class="list-group" id="event-list-items">
+      <!-- <app-event-item *ngFor="let event of events" [event]="event"></app-event-item> -->
+      <app-event-item class="list-group-item item"  *ngFor="let event of events" [event]="event"></app-event-item>
+    </ul>
+</div>
+
+

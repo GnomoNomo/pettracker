@@ -1,0 +1,7 @@
+<li href="#" class="list-group-item list-group-item-action" >
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1" id="list-item-title" *ngIf="event">{{event.title}}</h5>
+      <small class="text-muted" id="list-item-date" *ngIf="event">{{ event.date }}</small>
+    </div>
+    <small class="text-muted" id="list-item-note" *ngIf="event">{{ event.note }}</small>
+</li>
